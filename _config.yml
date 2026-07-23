@@ -27,7 +27,8 @@ url: "https://sean-m-benson.github.io" # the base hostname & protocol for your s
 github_username: sean-m-benson 
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
 plugins:
   - jekyll-feed
 
