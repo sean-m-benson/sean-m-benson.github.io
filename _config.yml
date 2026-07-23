@@ -25,13 +25,49 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sean-m-benson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: sean-m-benson 
+logo: "https://avatars.githubusercontent.com/u/3697707?v=4"
+read_time: true
+words_per_minute: 200
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /num/
+
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+# Front Matter Defaults
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: false
+
+# Site Author
+author:
+  name: Sean Benson
+  picture: https://avatars.githubusercontent.com/u/168481990?v=4
+  email: sbenson@hey.com
+
+# Footer Links
+footer_links:
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
 
 # Build settings
-#theme: minima
-#remote_theme: "mmistakes/so-simple-theme@3.2.0"
-remote_theme: "poole/hyde@v2.1.0"
-plugins:
-  - jekyll-feed
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
