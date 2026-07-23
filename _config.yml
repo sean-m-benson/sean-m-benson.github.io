@@ -21,7 +21,7 @@
 title: Sean's Blog 
 email: sbenson@hey.com 
 description: >- # this means to ignore newlines until "baseurl:"
-	This is my blog.
+  This is my blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sean-m-benson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: sean-m-benson 
