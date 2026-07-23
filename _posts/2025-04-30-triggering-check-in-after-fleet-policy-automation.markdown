@@ -2,7 +2,7 @@
 layout: post
 title: 	Triggering Immediate Check-ins with Fleet Automations
 date:   2025-04-25 12:00:00 -0700
-categories: fleet jamf macOS 
+tags: fleet jamf macOS 
 ---
 
 A common pattern in endpoint configuration management is to audit a system for a desired state, and if a system deviates from this state, trigger remediation to bring it back into compliance.

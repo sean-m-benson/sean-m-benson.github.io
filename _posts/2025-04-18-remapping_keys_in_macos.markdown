@@ -2,7 +2,7 @@
 layout: post
 title: Re-mapping keys in macOS
 date:   2025-04-18 12:00 -0700
-categories: macOS productivity
+tags: macOS productivity
 ---
 
 Like most people, I'm particular about what's on my desk, and all of my various tweaks, macros, etc. that I use to make my time working comfortable and productive.
