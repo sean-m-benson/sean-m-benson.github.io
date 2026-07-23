@@ -29,7 +29,7 @@ github_username: sean-m-benson
 # Build settings
 #theme: minima
 #remote_theme: "mmistakes/so-simple-theme@3.2.0"
-remote_theme: "poole/hyde@2.1.0"
+remote_theme: "poole/hyde@v2.1.0"
 plugins:
   - jekyll-feed
 
